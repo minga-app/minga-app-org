@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Montserrat-Medium
+font link: https://fonts.google.com/specimen/Montserrat
+font author: Julieta Ulanovsky
+font author site: http://www.zkysky.com.ar/
+Slogan Font: Montserrat-Medium
+
+icon designer: Anuar Zhumaev
+icon designer link: /yxorama
+        
+{"bg":"#F56B11","icon":"#FFFFFF","font":"#ffffff","slogan":"#ffffff"}
+      
