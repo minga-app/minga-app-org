@@ -1,13 +1,53 @@
 ---
 layout: default
 ---
-
+<div id="navbar">
+    {% include logo-small.svg %}
+    <span class="brand">
+        Minga
+    </span>
+    <amp-animation layout="nodisplay" id="showNavbar">
+        <script type="application/json">
+        {
+            "duration":"150ms",
+            "fill":"both",
+            "iterations":"1",
+            "direction":"alternate",
+            "animations":[{
+                "selector": "#navbar",
+                "keyframes":[{
+                    "opacity": "1",
+                    "visibility": "visible"
+                }]
+            }]
+        }
+        </script>
+    </amp-animation>
+    <amp-animation layout="nodisplay" id="hideNavbar">
+        <script type="application/json">
+        {
+            "duration":"150ms",
+            "fill":"both",
+            "iterations":"1",
+            "direction":"alternate",
+            "animations":[{
+                "selector": "#navbar",
+                "keyframes":[{
+                    "opacity": "0",
+                    "visibility":"hidden"}]
+            }]
+        }
+        </script>
+    </amp-animation>
+</div>
 <div id="fixed">
     <a>{% include playstore.svg %}</a>
     <a>{% include appstore.svg %}</a>
     <a>{% include github.svg %}</a>
 </div>
 <div id="hero">
+    <amp-position-observer layout="nodisplay" on="exit:showNavbar.start; enter:hideNavbar.start">
+    </amp-position-observer>
     <div class="brand">
         {% include logo.svg %}
         <h1> Minga<br><small>food & climate</small></h1>
@@ -26,6 +66,7 @@ layout: default
 
 </div>
 <div id="what">
+    <amp-img id="leaf" src="/assets/images/leaf.png" layout="fixed" width="300" height="220"></amp-img>
     <h3>What we want to solve</h3>
     <div class="comparison">
         <div class="problems">
@@ -48,7 +89,12 @@ layout: default
                 doing
                 well on paper but highly indebted, is losing everything they've ever had to the creditors. <br>
             </p>
-                <hr>
+            <p>
+                The Chilean anti-foodwaste-law, approved by the Senate at the beginning of August and now waiting to
+                pass
+                in Congress is being rejected, and supermarkets keep destroying food.
+            </p>
+            <hr>
 
             <h4>Globally</h4>
             <p>And FAO estimates that 1/3rd of food goes to waste, emitting 6% of global GHG.
@@ -82,19 +128,37 @@ layout: default
         </div>
         <div class="solutions">
             <h4>How Minga helps</h4>
-            
+
             <ul>
-                <li>People can collect donations, help .
+                <li>We build a free-to-use cloud platform with <strong>mobile app</strong> (iOS, Android) and
+                    <strong>web
+                        app</strong>, where people can discover food offerings, help preparing food or do other
+                    voluntary work or people and businesses donate goods...
+                    <br><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut
+                        labore et dolore magna.</small>
+                </li>
+                <li>Impact points as equivalent value to their effort.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua.
+                    <br><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut
+                        labore et dolore magna.</small>
+
                 </li>
                 <li>People can collect donations, help .
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua.
-                </li><li>People can collect donations, help .
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.
-                </li><li>Minga starts in Chile but can be easily deployed to other countries all around the world.
+                    <br><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut
+                        labore et dolore magna.</small>
+
+                </li>
+                <li>Minga starts in Chile but can be easily deployed to other countries all around the world.
+                    <br><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut
+                        labore et dolore magna.</small>
+
                 </li>
             </ul>
         </div>
@@ -103,7 +167,233 @@ layout: default
 </div>
 <div id="how-outer">
     <div id="how">
-        <h3>How it works exactly</h3>
-        <div class=""></div>
+        <h3>Features</h3>
+        <div class="details">
+            <div class="details-card">
+                <h4>
+                    {% include help.svg %}
+                    Help and Benefit</h4>
+                <figure>
+
+                </figure>
+                <p>
+                    Help with your voluntary work – collect, prepare, distribute food or goods, or help in centers<br>
+                    <small>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna.
+                    </small>
+                </p>
+                <figure>
+                    {% include impact.svg %}
+                </figure>
+                <p>
+                    Get compensated with impact points<br>
+                    <small>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna.
+                    </small>
+                </p>
+                <figure>
+                    {% include offers.svg %}
+                </figure>
+                <p>
+                    Benefit from food offers and goods nearby<br>
+                    <small>
+                        ...which you can exchange for your impact points...
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna.
+                    </small>
+                </p>
+            </div>
+            <div class="details-card top-1">
+                <h4>
+                    {% include donate.svg %}
+                    For Donors</h4>
+                <p>
+                    Donate entirely for free. We take care of the pick up and collection
+                    <br>
+                    <small>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna.
+                    </small>
+                </p>
+                <p>
+                    Have an impact on climate and the people around you<br>
+                    <small>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna.
+                    </small>
+                </p>
+                <hr>
+                <h5>For business</h5>
+                <figure>
+                    {% include chart.svg %}
+                </figure>
+                <p>
+                    Keep an overview of all your donations<br>
+                    <small>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna.
+                    </small>
+                </p>
+                <p>
+                    Receive automatically generated tax-reduction certificates<br>
+                    <small>
+                        PDF and CSV. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut
+                        labore
+                        et dolore magna.
+                    </small>
+                </p>
+            </div>
+            <div class="details-card top-2">
+                <h4>
+                    {% include center.svg %}
+                    For Food-Centers</h4>
+                <p>
+                    We help you keep track of your incoming donations<br>
+                    <small>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna.
+                    </small>
+                </p>
+                <figure>
+                    <amp-img layout="responsive" height="6" width="9" src="/assets/images/storage2.jpg"></amp-img>
+                </figure>
+                <p>
+                    We help you manage your inventory<br>
+                    <small>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna.
+                    </small>
+                </p>
+                <hr>
+                <p>
+                    We help you be discoverable for the people who need it most
+                    <br>
+                    <small>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna.
+                    </small>
+                </p>
+                <p>
+                    We help you manage your coordinators and admins<br>
+                    <small>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna.
+                    </small>
+                </p>
+            </div>
+        </div>
     </div>
+</div>
+<div id="gallery">
+    <h3>App gallery</h3>
+    <div class="left-arrow">
+        {% include back.svg %}
+    </div>
+    <div class="gallery-grid">
+        <div class="marvel-device iphone-x">
+            <div class="notch">
+                <div class="camera"></div>
+                <div class="speaker"></div>
+            </div>
+            <div class="top-bar"></div>
+            <div class="sleep"></div>
+            <div class="bottom-bar"></div>
+            <div class="volume"></div>
+            <div class="overflow">
+                <div class="shadow shadow--tr"></div>
+                <div class="shadow shadow--tl"></div>
+                <div class="shadow shadow--br"></div>
+                <div class="shadow shadow--bl"></div>
+            </div>
+            <div class="inner-shadow"></div>
+            <div class="screen">
+                <!-- Content goes here -->
+            </div>
+        </div>
+        <div class="marvel-device note8">
+            <div class="inner"></div>
+            <div class="overflow">
+                <div class="shadow"></div>
+            </div>
+            <div class="speaker"></div>
+            <div class="sensors"></div>
+            <div class="more-sensors"></div>
+            <div class="sleep"></div>
+            <div class="volume"></div>
+            <div class="camera"></div>
+            <div class="screen">
+                <!-- Content goes here -->
+            </div>
+        </div>
+
+    </div>
+
+    <div class="controls">
+        <div class="control active">Discover<br>offers</div>
+        <div class="control">Donate<br>food</div>
+        <div class="control">Voluntary<br>work</div>
+        <div class="control">Impact<br>board</div>
+        <div class="control">Center<br>admin</div>
+    </div>
+
+    <div class="right-arrow">
+        {% include forward.svg %}
+    </div>
+</div>
+
+<div id="values-outer">
+    <div id="values">
+        <h3>Our values</h3>
+        <div class="details">
+            <div class="details-card">
+                <h4>Not-for profit</h4>
+                <p>
+                    Help with your voluntary work – collect, prepare, distribute food or goods, or help in centers<br>
+                    <small>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna.
+                    </small>
+                </p>
+            </div>
+            <div class="details-card spacing">
+                <h4>Open source</h4>
+                <p>
+                    Help with your voluntary work – collect, prepare, distribute food or goods, or help in centers<br>
+                    <small>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna.
+                    </small>
+                </p>
+            </div>
+            <div class="details-card spacing">
+                <h4>Privacy</h4>
+                <p>
+                    Help with your voluntary work – collect, prepare, distribute food or goods, or help in centers<br>
+                    <small>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna.
+                    </small>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="contact">
+    <h3>Contact</h3>
 </div>
