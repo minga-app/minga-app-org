@@ -1,0 +1,43 @@
+@import '_variables';
+
+.contact-grid {
+    max-width: 1000px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-details {
+    flex: 1;
+    background-color: $white;
+    border-radius: 2rem;
+
+    padding: 2rem;
+}
+
+.avatars {
+    flex: 1;
+    margin-left: 2rem;
+}
+
+.avatar {
+    height: 96px;
+    display: flex;
+    border-top-left-radius: 48px;
+    border-bottom-left-radius: 48px;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background: $white;
+    margin-bottom: 2rem;
+
+    svg {
+        margin-right: 1rem;
+
+        .label {
+            font-family: sans-serif;
+            font-size: 3rem;
+            fill: $white;
+        }
+
+    }
+}

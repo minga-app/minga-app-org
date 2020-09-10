@@ -1,0 +1,39 @@
+@import '_variables';
+
+#fixed {
+    position: fixed;
+    top: .9rem;
+    right: .5rem;
+    z-index: 1000;
+}
+
+#fixed a svg {
+    fill: $grey;
+    font-weight: 500;
+    margin-right: .5rem;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4rem;
+    padding-left: .5rem;
+    background: linear-gradient($primary200, rgba($primary200, 0.9));
+    z-index: 999;
+    justify-content: center;
+    visibility: none;
+    opacity: 0;
+    display: flex;
+}
+
+#navbar svg {
+    padding-top: .2rem;
+}
+
+#navbar .brand {
+    align-self: center;
+    font-size: 1.6rem;
+    color: $black;
+}

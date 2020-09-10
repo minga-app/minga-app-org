@@ -1,0 +1,44 @@
+@import '_variables';
+
+.bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.number {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color:$primary;
+    line-height: 2rem;
+}
+
+
+.number .unit {
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: $black;
+}
+
+.chart circle {
+    fill:$lightgrey;
+    stroke: $primary;
+    stroke-width: 50;
+    stroke-dasharray: 0 158;
+    transition: stroke-dasharray .3s ease;
+}
+
+.chart svg {
+    margin: 0 auto;
+    transform: rotate(-90deg);
+    background: $lightgrey;
+    border-radius: 50%;
+    display: block;
+}

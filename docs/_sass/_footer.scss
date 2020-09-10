@@ -1,0 +1,15 @@
+@import '_variables';
+
+footer {
+    height: 4.5rem;
+    background-color: $primary200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        color: $black;
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+}

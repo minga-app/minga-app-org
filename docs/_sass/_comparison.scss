@@ -1,0 +1,63 @@
+@import '_variables';
+
+.comparison {
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+
+.problems {
+    flex: 1;
+    flex-grow: 1;
+    background-color: $white;
+    border-radius: 2rem;
+    margin-right: 3rem;
+    padding: 2rem;
+
+    ul {
+        list-style-type: none;
+
+        li::before {
+            display: inline-block;
+            width: 2rem;
+            margin-left: -2rem;
+            font-size: 4rem;
+            line-height: 1;
+            content: '-';
+            color: $primary;
+
+        }
+    }
+}
+
+
+
+.solutions {
+    flex: 1;
+
+    background-color: $white;
+    border-radius: 2rem;
+
+    padding: 2rem;
+
+    ul {
+        list-style-type: none;
+
+        li::before {
+            display: inline-block;
+            width: 2rem;
+            margin-left: -2rem;
+
+            font-size: 4rem;
+            line-height: 1;
+            content: '+';
+            color: $accent;
+
+        }
+    }
+
+}

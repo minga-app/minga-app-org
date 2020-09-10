@@ -1,0 +1,66 @@
+@import '_variables';
+
+#gallery .left-arrow {
+
+    position: absolute;
+    left: 2rem;
+    height: 64px;
+    width: 64px;
+    background: $primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+#gallery .right-arrow {
+    right: 2rem;
+    position: absolute;
+    height: 64px;
+    width: 64px;
+
+    background: $primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.controls .control {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    padding: .75rem 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 2rem;
+    background: $white;
+    flex: 1;
+}
+
+.controls .control.active {
+    background: $primary200;
+}
+
+.gallery-grid {
+    max-width: 1000px;
+    max-height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.gallery-grid .iphone-x {
+    transform: scale(0.7);
+    margin-top: .5rem;
+}
+
+.gallery-grid .note8 {
+    transform: scale(0.65);
+}
