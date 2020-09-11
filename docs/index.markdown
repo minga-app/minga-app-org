@@ -75,7 +75,7 @@ values:
   items:
   - content: All of our software is developed publicly and under an open source license.
     small_content: Our development process is completely transparent and our software license is the GNU Affero General Public License v3.
-  - small_content: 'We are building a version of Minga that can deployed more easily is and is also cloud vendor independent.<br><a href="https://github.com/minga-app/roadmap">See our development roadmap</a>.'
+  - content: 'We are building a version of Minga that can deployed more easily is and is also cloud vendor independent.<br><a href="https://github.com/minga-app/roadmap">See our development roadmap</a>.'
   button:
     title: Find us on Github
     url: https://github.com/minga-app

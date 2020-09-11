@@ -38,7 +38,7 @@
     </amp-animation>
 </div>
 <div id="fixed">
-    <a>{% include playstore.svg %}</a>
-    <a>{% include appstore.svg %}</a>
-    <a>{% include github.svg %}</a>
+    {% for link in site.data.header %}
+    <a href="{{ link.url }}">{% include {{ link.icon | append: '.svg' }} %}</a>
+    {% endfor %}
 </div>
