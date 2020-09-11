@@ -1,7 +1,6 @@
 ---
 title: Index
 permalink: "/index.html"
-layout: home
 hero_title: food & climate
 hero_subtitle: A participatory model to
 hero_items:
@@ -13,6 +12,13 @@ problems_title: Foodwaste globally
 problems:
 - content: The FAO estimates that 1/3rd of food goes to waste, emitting 6% of global
     GHG.
+  small_content: 
+  icon: 
+  include: 
+  image: 
+  alt: 
+  divided: 
+  title: 
 - include: charts/pie.html
   content: If global foodwaste was a country, it would be the world’s third-biggest
     polluter. If organic waste is not adequately composted, it generates highly polluting
@@ -36,6 +42,13 @@ solutions:
     that people for their climate- and community-friendly action.<br>Users can discover
     food offerings, help preparing food or do other voluntary work, whereas individuals
     and businesses can donate goods.
+  small_content: 
+  icon: 
+  include: 
+  image: 
+  alt: 
+  divided: 
+  title: 
 - content: All participants earn impact points for their donations and voluntary work
     These points can be either claimed by the person or donated to others who might
     not have the chance to contribute
@@ -55,6 +68,12 @@ benefit:
     supervisor, great psychologist, doctor or lawyer, experienced bicycle repairer,
     efficient coordinator, or if friends say you’re on the phone all day anyway: we
     need you.'
+  icon: 
+  include: 
+  image: 
+  alt: 
+  divided: 
+  title: 
 - content: Get compensated with impact points
   small_content: 'Points can create advantage: instead of working for the usual 3
     EUR/hour, taking the $ to the supermarket and coming home with 2 kilos of bread,
@@ -70,6 +89,12 @@ donate:
 - content: Donate food and goods entirely without hidden costs. We can take care of
     pick up and collection.
   small_content: You will earn impact points for your contributions.
+  icon: 
+  include: 
+  image: 
+  alt: 
+  divided: 
+  title: 
 - content: Have an impact on climate and the people around you.
   small_content: If global foodwaste was a country, it would be the world’s third-biggest
     polluter. If organic waste is not adequately composted, it generates highly polluting
@@ -86,6 +111,12 @@ center:
 - content: We help you keep track of your incoming donations
   small_content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna.
+  icon: 
+  include: 
+  image: 
+  alt: 
+  divided: 
+  title: 
 - content: We help you manage your inventory
   small_content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna.
@@ -104,10 +135,20 @@ values:
   items:
   - content: We are driven by driven by strong sense of social justice and our wish
       is to mitigate the impact of hunger caused by Covid-19 and inequality.
+    small_content: 
+    icon: 
+    include: 
+    image: 
+    alt: 
+    divided: 
+    title: 
   - content: We truly believe that a participatory model can be a compliment to assistential
       models.
     small_content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna.
+  button:
+    title: 
+    url: 
 - title: Open Source
   items:
   - content: All of our software is developed publicly and under an open source license.
@@ -130,5 +171,6 @@ values:
 contact_title: Contact
 contact_content: We are always open for feedback, cooperations or just questions.
   Don't hesitate to contact us.
+layout: home
 ---
 
