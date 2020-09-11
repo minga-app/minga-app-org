@@ -4,12 +4,10 @@
 
     @include breakpoint('until-desktop') {
         min-height: 75vh;
-
-
     }
 
     @include breakpoint('desktop') {
-        min-height: calc(100vh - 3rem);
+        min-height: calc(100vh - 9rem);
     }
 
     width: 100%;
