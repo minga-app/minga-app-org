@@ -1,4 +1,5 @@
 ---
+title: Index
 permalink: "/index.html"
 layout: home
 hero_title: food & climate
