@@ -17,81 +17,79 @@ defaults:
     type: home
   values:
     layout: home
-    hero_title:
-    hero_subtitle:
+    hero_title: 
+    hero_subtitle: 
     hero_items: []
-    comparison_title:
+    comparison_title: 
     problems_title: 
     problems:
-    - content:
-      small_content:
-      icon:
-      include:
-      image:
-      alt:
+    - content: 
+      small_content: 
+      icon: 
+      include: 
+      image: 
+      alt: 
       divided: false
-      title:
-    solutions_title:
-    solutions: 
-    - content:
-      small_content:
-      icon:
-      include:
-      image:
-      alt:
+      title: 
+    solutions_title: 
+    solutions:
+    - content: 
+      small_content: 
+      icon: 
+      include: 
+      image: 
+      alt: 
       divided: false
-      title:
+      title: 
     features_title: 
     benefit_title: 
     benefit:
-    - content:
-      small_content:
-      icon:
-      include:
-      image:
-      alt:
+    - content: 
+      small_content: 
+      icon: 
+      include: 
+      image: 
+      alt: 
       divided: false
-      title:
-    donate_title:
+      title: 
+    donate_title: 
     donate:
-    - content:
-      small_content:
-      icon:
-      include:
-      image:
-      alt:
+    - content: 
+      small_content: 
+      icon: 
+      include: 
+      image: 
+      alt: 
       divided: false
-      title:
-    center_title:
+      title: 
+    center_title: 
     center:
-    - content:
-      small_content:
-      icon:
-      include:
-      image:
-      alt:
+    - content: 
+      small_content: 
+      icon: 
+      include: 
+      image: 
+      alt: 
       divided: false
-      title:
-    gallery_title:
-    values_title:
+      title: 
+    gallery_title: 
+    values_title: 
     values:
-    - title:
+    - title: 
       items:
-      - content:
-        small_content:
-        icon:
-        include:
-        image:
-        alt:
+      - content: 
+        small_content: 
+        icon: 
+        include: 
+        image: 
+        alt: 
         divided: false
-        title:
+        title: 
       button:
-        title:
-        url:
-    contact_title:
-    contact_content:
-
-
+        title: 
+        url: 
+    contact_title: 
+    contact_content: 
 email: info@minga-app.org
 description: Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
