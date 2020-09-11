@@ -1,4 +1,5 @@
 ---
+permalink: "/index.html"
 layout: home
 hero_title: food & climate
 hero_subtitle: A participatory model to
