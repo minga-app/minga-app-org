@@ -1,20 +1,5 @@
+---
 title: Minga – Food and Climate
-
-email: info@minga-app.org
-description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-url: "https://minga-app.org"
-
-theme: amp_base_theme
-
-amp_components:
-  - name: amp-position-observer
-  - name: amp-animation
-
-google_fonts:
-  - "Montserrat:wght@500"
 timezone: UTC
 collections:
   posts:
@@ -23,3 +8,14 @@ collections:
   uploads:
     title: Uploads
     output: true
+email: info@minga-app.org
+description: Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
+url: https://minga-app.org
+theme: amp_base_theme
+amp_components:
+- name: amp-position-observer
+- name: amp-animation
+google_fonts:
+- Montserrat:wght@500
