@@ -22,8 +22,10 @@
     padding-left: .5rem;
     background: linear-gradient($primary200, rgba($primary200, 0.9));
     z-index: 999;
-    justify-content: center;
-    visibility: none;
+    @include breakpoint('desktop') {
+        justify-content: center;
+    }
+    visibility: hidden;
     opacity: 0;
     display: flex;
 }

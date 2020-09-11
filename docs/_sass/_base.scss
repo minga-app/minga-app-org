@@ -8,8 +8,13 @@ body {
 
 h3 {
     font-size: 2.5rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    @include breakpoint('desktop'){
+        margin: 1.5rem 0;
+    }
+    @include breakpoint('until-desktop'){
+        margin:0;
+        padding: 1.5rem;
+    }
 }
 
 h4 {
@@ -26,46 +31,54 @@ hr {
     height: .2rem;
     background: $primary;
     border: none;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    @include breakpoint('until-desktop'){
+        margin: 1.5rem 0;
+    }
+
+        @include breakpoint('desktop'){
+
+        margin: 2rem 0;
+    }
 }
 
 
 #what,
 #gallery,
 #contact {
-    position: relative;
-    padding-bottom: 3rem;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     background-color: $primary100;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-    margin-top: -6rem;
+    padding-bottom: 3rem;
+    @include breakpoint('desktop') {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
+    }
 }
 
 
-#how-outer,
+#features-outer,
 #values-outer {
     width: 100%;
     background-color: $primary100;
 
-    #how,
+    #features,
     #values {
-        padding-bottom: 9rem;
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         background-color: $white;
-        border-top-left-radius: 10%;
-        border-top-right-radius: 10%;
+        padding-bottom: 3rem;
+        @include breakpoint('desktop') {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-top-left-radius: 10%;
+            border-top-right-radius: 10%;
+        }
     }
 
-    #how .details .details-card {
+    #features .details .details-card {
         min-height: 600px;
     }
 
@@ -96,17 +109,11 @@ figure {
     }
 }
 
-
-
-
 p small,
 li small {
     color: $grey;
     font-size: .9rem;
 }
-
-
-
 
 .btn {
     line-height: 5rem;

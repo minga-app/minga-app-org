@@ -1,9 +1,7 @@
 @import '_variables';
 
-#gallery .left-arrow {
-
+@mixin arrow-mixin {
     position: absolute;
-    left: 2rem;
     height: 64px;
     width: 64px;
     background: $primary;
@@ -11,38 +9,51 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+
+    @include breakpoint('until-desktop') {
+        display: none;
+    }
+}
+
+#gallery .left-arrow {
+    left: 2rem;
+    @include arrow-mixin();
 }
 
 
 #gallery .right-arrow {
     right: 2rem;
-    position: absolute;
-    height: 64px;
-    width: 64px;
-
-    background: $primary;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-
+    @include arrow-mixin();
 }
 
 .controls {
+    @include breakpoint('until-desktop') {
+        margin: 0 1rem;
+    }
+
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .controls .control {
-    font-size: 1.3rem;
+    @include breakpoint('desktop') {
+        font-size: 1.3rem;
+        padding: .75rem 3rem;
+        margin: 0 1rem;
+        border-radius: 2rem;
+    }
+
+    @include breakpoint('until-desktop') {
+        padding: .5rem;
+        margin: 0 .25rem .5rem;
+        border-radius: 1rem;
+        width: 80px;
+    }
+
     font-weight: bold;
     text-align: center;
-    padding: .75rem 3rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    border-radius: 2rem;
     background: $white;
-    flex: 1;
 }
 
 .controls .control.active {
@@ -51,7 +62,7 @@
 
 .gallery-grid {
     max-width: 1000px;
-    max-height: 700px;
+    max-height: 650px;
     display: flex;
     align-items: center;
 }
@@ -63,4 +74,8 @@
 
 .gallery-grid .note8 {
     transform: scale(0.65);
+
+    @include breakpoint('until-desktop') {
+        display: none;
+    }
 }

@@ -1,0 +1,8 @@
+- url: /imprint
+  title: Imprint
+- url: /privacy
+  title: Privacy Policy
+- url: /terms
+  title: Terms of Use
+- url: https://github.com/minga-app/minga-app-org
+  title: Source code

@@ -1,0 +1,31 @@
+<div id="features-outer">
+    <div id="features">
+        <h3>{{ page.features_title }}</h3>
+        <div class="details">
+            <div class="details-card">
+                <h4>
+                    {% include help.svg %}
+                    {{ page.benefit_title }}</h4>
+                {% for item in  page.benefit %}
+                {% include components/text-caption.html %}
+                {% endfor %}
+            </div>
+            <div class="details-card top-1">
+                <h4>
+                    {% include donate.svg %}
+                    {{ page.donate_title }}</h4>
+                {% for item in page.donate %}
+                {% include components/text-caption.html %}
+                {%  endfor %}
+            </div>
+            <div class="details-card top-2">
+                <h4>
+                    {% include center.svg %}
+                    {{ page.center_title }}</h4>
+                {% for item in page.center %}
+                {% include components/text-caption.html %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

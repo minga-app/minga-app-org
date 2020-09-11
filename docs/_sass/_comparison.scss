@@ -1,22 +1,26 @@
 @import '_variables';
 
 .comparison {
-    margin: auto;
-    max-width: 1000px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    align-content: flex-start;
+    @include breakpoint('desktop') {
+        max-width: 1000px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
 }
 
 
 .problems {
-    flex: 1;
-    flex-grow: 1;
-    background-color: $white;
-    border-radius: 2rem;
-    margin-right: 3rem;
-    padding: 2rem;
+    @include card-shape($white);
+
+    @include breakpoint('desktop') {
+        flex: 1;
+        flex-grow: 1;
+
+        margin-right: 3rem;
+    }
 
     ul {
         list-style-type: none;
@@ -37,12 +41,11 @@
 
 
 .solutions {
-    flex: 1;
+    @include card-shape($white);
 
-    background-color: $white;
-    border-radius: 2rem;
-
-    padding: 2rem;
+    @include breakpoint('desktop') {
+        flex: 1;
+    }
 
     ul {
         list-style-type: none;

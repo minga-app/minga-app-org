@@ -1,0 +1,24 @@
+<div id="what">
+    <h3>{{ page.comparison_title }}</h3>
+    <div class="comparison">
+        <div class="problems">
+            <h4>{{ page.problems_title }}</h4>
+            {% for item in page.problems %}
+            {% include components/text-caption.html %}
+            {% endfor %}
+        </div>
+        <div class="solutions">
+            <h4>{{ page.solutions_title }}</h4>
+
+            <ul>
+                {% for item in page.solutions %}
+                <li>
+                    {{ item.content }}<br>
+                    {% if item.small_content %}<small>{{ item.small_content }}</small>{% endif %}
+                </li>
+                {% endfor %}
+
+            </ul>
+        </div>
+    </div>
+</div>

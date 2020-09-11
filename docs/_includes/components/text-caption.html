@@ -1,0 +1,26 @@
+
+{% if item.divided %}<hr>{% endif %}
+{% if item.title %}
+<h4>{{item.title}}</h4>
+{% endif %}
+{%  if item.icon %}
+<figure>
+    {% include {{ item.icon | append:'.svg' }} %}
+</figure>
+{% endif %}
+{% if item.include %}
+    {% include {{ item.include }} %}
+{% endif %}
+{% if item.image %}
+<figure>
+    <amp-img layout="responsive" height="5" width="9" src="{{ item.image }}" {% if item.alt %}alt="{{ item.alt }}"{% endif %}></amp-img>
+    {% if item.alt %}<figcaption>{{ item.alt }}</figcaption>{% endif %}
+</figure>
+{% endif %}
+
+{% if item.content %}
+<p>
+    {{ item.content }}<br>
+    {% if item.small_content %}<small>{{ item.small_content }}</small>{% endif %}
+</p>
+{% endif %}

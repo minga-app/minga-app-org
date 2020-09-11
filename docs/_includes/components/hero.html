@@ -1,0 +1,21 @@
+<div id="hero">
+    <amp-position-observer layout="nodisplay" on="exit:showNavbar.start; enter:hideNavbar.start">
+    </amp-position-observer>
+    <div class="brand">
+        {% include logo.svg %}
+        <h1> Minga<br><small>{{ page.hero_title }}</small></h1>
+    </div>
+
+    <div class="teaser">
+        <h2>
+            {{ page.hero_subtitle }}
+        </h2>
+        
+        <ul>
+            {% for item in page.hero_items %}
+            <li>{{ item }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+</div>

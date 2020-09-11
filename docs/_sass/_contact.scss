@@ -1,43 +1,50 @@
 @import '_variables';
 
 .contact-grid {
-    max-width: 1000px;
-    align-items: center;
-    display: flex;
-    justify-content: space-evenly;
-}
 
-.contact-details {
-    flex: 1;
-    background-color: $white;
-    border-radius: 2rem;
+    @include breakpoint('desktop') {
+        margin: auto;
+        max-width: 1000px;
+    }
 
-    padding: 2rem;
-}
+    .contact-details {
+        @include card-shape($white);
+        margin-bottom: 2rem;
+    }
 
-.avatars {
-    flex: 1;
-    margin-left: 2rem;
-}
-
-.avatar {
-    height: 96px;
-    display: flex;
-    border-top-left-radius: 48px;
-    border-bottom-left-radius: 48px;
-    border-top-right-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    background: $white;
-    margin-bottom: 2rem;
-
-    svg {
-        margin-right: 1rem;
-
-        .label {
-            font-family: sans-serif;
-            font-size: 3rem;
-            fill: $white;
+    .avatars {
+        @include breakpoint('desktop') {
+            align-items: center;
+            display: flex;
+            justify-content: space-evenly;
         }
 
+        .avatar {
+            flex: 1;
+            height: 96px;
+            display: flex;
+            @include card-shape($white);
+
+            padding: 0 !important;
+            border-top-left-radius: 48px;
+            border-bottom-left-radius: 48px;
+
+            @include breakpoint('desktop'){
+                &.spacing {
+                    margin-left: 2rem;
+                }
+            }
+
+            svg {
+                margin-right: 1rem;
+
+                .label {
+                    font-family: sans-serif;
+                    font-size: 3rem;
+                    fill: $white;
+                }
+
+            }
+        }
     }
 }

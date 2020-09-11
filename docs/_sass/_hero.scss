@@ -1,7 +1,17 @@
 @import '_variables';
 
 #hero {
-    min-height: calc(100vh - 3rem);
+
+    @include breakpoint('until-desktop') {
+        min-height: 75vh;
+
+
+    }
+
+    @include breakpoint('desktop') {
+        min-height: calc(100vh - 3rem);
+    }
+
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -16,21 +26,57 @@
         color: $primary;
 
         h1 {
-            font-size: 5rem;
-            line-height: 2.8rem;
-            margin: 0;
-            padding-top: 2.8rem;
+            @include breakpoint('desktop') {
 
-            small {
-                padding-left: .5rem;
-                font-size: 1.7rem;
-                text-transform: uppercase;
+                font-size: 5rem;
+                line-height: 2.8rem;
+                padding-top: 2.8rem;
+
+                small {
+                    padding-left: .5rem;
+                    font-size: 1.7rem;
+                    text-transform: uppercase;
+                }
             }
+
+            @include breakpoint('until-desktop') {
+                font-size: 3.5rem;
+                line-height: 1.9rem;
+                padding-top: 1.9rem;
+
+                small {
+                    padding-left: .25rem;
+                    font-size: 1.3rem;
+                    text-transform: uppercase;
+                }
+            }
+
+            margin: 0;
+
+        }
+
+        svg {
+            @include breakpoint('desktop') {
+                height: 250px;
+                width: 250px;
+            }
+
+            @include breakpoint('until-desktop') {
+                height: 100px;
+                width: 100px;
+            }
+
         }
     }
 
     .teaser {
-        padding-top: 2rem;
+        @include breakpoint('desktop'){
+
+            padding-top: 2rem;
+        }
+        @include breakpoint('until-desktop'){
+            padding: 1.5rem;
+        }
 
         h2 {
             font-size: 2.5rem;

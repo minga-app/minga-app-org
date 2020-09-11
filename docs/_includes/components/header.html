@@ -1,0 +1,44 @@
+<div id="navbar">
+    {% include logo-small.svg %}
+    <span class="brand">
+        Minga
+    </span>
+    <amp-animation layout="nodisplay" id="showNavbar">
+        <script type="application/json">
+        {
+            "duration":"150ms",
+            "fill":"both",
+            "iterations":"1",
+            "direction":"alternate",
+            "animations":[{
+                "selector": "#navbar",
+                "keyframes":[{
+                    "opacity": "1",
+                    "visibility": "visible"
+                }]
+            }]
+        }
+        </script>
+    </amp-animation>
+    <amp-animation layout="nodisplay" id="hideNavbar">
+        <script type="application/json">
+        {
+            "duration":"150ms",
+            "fill":"both",
+            "iterations":"1",
+            "direction":"alternate",
+            "animations":[{
+                "selector": "#navbar",
+                "keyframes":[{
+                    "opacity": "0",
+                    "visibility":"hidden"}]
+            }]
+        }
+        </script>
+    </amp-animation>
+</div>
+<div id="fixed">
+    <a>{% include playstore.svg %}</a>
+    <a>{% include appstore.svg %}</a>
+    <a>{% include github.svg %}</a>
+</div>
