@@ -103,3 +103,4 @@ google_fonts:
 - Montserrat:wght@500
 exclude:
 - Minga-logo
+- Gemfile
