@@ -153,9 +153,6 @@ values:
     small_content: 'The structure of poverty is changing rapidly, and climate change
       urges us to seek beyond the borders of what we thought was feasible until Covid
       hit. '
-  button:
-    title: 
-    url: 
 - title: Open Source
   items:
   - content: All of our software is developed publicly and under an open source license.
