@@ -1,6 +1,6 @@
-Español---
-title: Index
-permalink: "/es/index.html"
+---
+title: Español
+permalink: "/index.html"
 hero_title: food & climate
 hero_subtitle: A participatory model to
 hero_items:
@@ -153,9 +153,6 @@ values:
     small_content: 'The structure of poverty is changing rapidly, and climate change
       urges us to seek beyond the borders of what we thought was feasible until Covid
       hit. '
-  button:
-    title: 
-    url: 
 - title: Open Source
   items:
   - content: All of our software is developed publicly and under an open source license.
@@ -173,9 +170,9 @@ values:
     small_content: You can unsubscribe any time, and your data will be deleted and
       never shared with Third Parties.
   - content: Participate anonymously
-    small_content: In case you were a donor who wishes to remain incognito, please
-      contact us for the creation of a confidential reception of the goods, services
-      or funds you'd like to donate.
+    small_content: In case you were a donor who wishes to remain incognito, you can
+      simply tick a checkbox for the creation of a confidential reception of the goods,
+      services or funds you'd like to donate.
 contact_title: Contact
 contact_content: We are always open for feedback, cooperations or just questions.
   Don't hesitate to contact us.

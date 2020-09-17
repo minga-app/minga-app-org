@@ -1,5 +1,5 @@
 ---
-title: Index
+title: English
 permalink: "/index.html"
 hero_title: food & climate
 hero_subtitle: A participatory model to
