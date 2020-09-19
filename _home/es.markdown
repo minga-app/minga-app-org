@@ -1,6 +1,7 @@
 ---
 title: Español
 permalink: "/index.html"
+published: false
 hero_title: food & climate
 hero_subtitle: 'Un modelo participativo para '
 hero_items:
