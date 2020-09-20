@@ -124,7 +124,7 @@ center:
   divided: 
   title: 
 - content: Ayudamos con la gestión de inventario
-  small_content: 'Minga '
+  small_content: 
   image: "/assets/images/storage2.jpg"
 - divided: true
   content: Te ayudamos a llegar a la gente que más lo necesita
