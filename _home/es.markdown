@@ -1,7 +1,7 @@
 ---
 title: Español
 permalink: "/es/index.html"
-published: false
+published: true
 hero_title: food & climate
 hero_subtitle: 'Un modelo participativo para '
 hero_items:
@@ -84,8 +84,8 @@ benefit:
     y volver a casa con unos 2 kilos de pan, en nuestro modelo obtendrías lo que sea
     que haya ese día, o, si ahorras tus puntos, incluso esa chaqueta de invierno,
     o una tarjeta telefónica.'
-  icon: Impacto
-- icon: Ofertas
+  icon: impact
+- icon: offers
   content: Aprovecha las ofertas de comida y bienes en el centro más cercano a ti
   small_content: "...que puedes cambiar por tus puntos de impacto..."
 donate_title: Donar
@@ -149,20 +149,10 @@ values:
   - content: Nos impulsa un fuerte sentido de la justicia social, y nuestro deseo
       es mitigar el impacto del hambre causado por el Covid-19 y la desigualdad social
       existente.
-    small_content: 
-    icon: 
-    include: 
-    image: 
-    alt: 
-    divided: 
-    title: 
   - content: 
     small_content: 'La estructura de la pobreza está cambiando rápidamente, y el cambio
       climático nos insta a buscar más allá de las fronteras de lo que creíamos que
-      era factible hasta que el Covid llegó. '
-  button:
-    title: 
-    url: 
+      era fa ctible hasta que el Covid llegó. '
 - title: Open Source
   items:
   - content: Todo nuestro software está desarrollado públicamente y bajo una licencia

@@ -41,4 +41,9 @@
     {% for link in site.data.header %}
     <a href="{{ link.url }}">{% include {{ link.icon | append: '.svg' }} %}</a>
     {% endfor %}
+    {% for p in site.home %}
+    {% if page.url != p.url %}
+    <a href="{{ p.url }}">{{ p.title }}</a>
+    {% endif %}
+    {% endfor %}
 </div>
