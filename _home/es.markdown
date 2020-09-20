@@ -1,6 +1,6 @@
 ---
 title: Español
-permalink: "/index.html"
+permalink: "/es/index.html"
 published: false
 hero_title: food & climate
 hero_subtitle: 'Un modelo participativo para '
