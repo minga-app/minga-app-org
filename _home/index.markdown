@@ -10,8 +10,8 @@ hero_items:
 comparison_title: What we want to solve
 problems_title: Foodwaste globally
 problems:
-- content: FAO estimates that 1/3rd of food goes to waste, emitting 6% of global GHG.
-    At the same time, Covid-19 has increased hunger.
+- content: FAO estimates that 1/3rd of food goes to waste, emitting 6 % of global
+    GHG. At the same time, Covid-19 has increased hunger.
   small_content: 
   icon: 
   include: 
@@ -24,7 +24,7 @@ problems:
     polluter. If organic waste is not adequately composted, it generates highly polluting
     methane gas in the landfill.
 - image: "/assets/images/waste.jpeg"
-  alt: A woman disposing food
+  alt: A woman disposing of food
 - divided: true
   title: Situation in Chile
 - content: Only during the first months and only in Chile, Covid-19 has already left
@@ -153,6 +153,9 @@ values:
     small_content: 'The structure of poverty is changing rapidly, and climate change
       urges us to seek beyond the borders of what we thought was feasible until Covid
       hit. '
+  button:
+    title: 
+    url: 
 - title: Open Source
   items:
   - content: All of our software is developed publicly and under an open source license.
@@ -178,3 +181,4 @@ contact_content: We are always open for feedback, cooperations or just questions
   Don't hesitate to contact us.
 layout: home
 ---
+

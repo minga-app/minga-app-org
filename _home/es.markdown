@@ -1,7 +1,6 @@
 ---
 title: Español
 permalink: "/es/index.html"
-published: true
 hero_title: food & climate
 hero_subtitle: 'Un modelo participativo para '
 hero_items:
@@ -41,7 +40,7 @@ problems:
     ser aprobada en el Congreso, sigue corriendo el riesgo de ser rechazada, y los
     supermercados siguen destruyendo toneladas de alimentos incluso antes de su fecha
     de caducidad.
-solutions_title: How Minga helps
+solutions_title: Cómo Minga ayuda
 solutions:
 - content: Construimos una <strong>app para celulares </strong> y una plataforma gratuita
     en  cloud que recompensa a las personas por sus acciones a favor del clima y de
@@ -62,7 +61,7 @@ solutions:
     en un sistema no monetario, pero adaptado a la realidad actual.
 - content: Minga comienza en Chile, pero puede ser fácilmente desplegada en otros
     países de todo el mundo.
-features_title: Features
+features_title: Funciones
 benefit_title: Ayudar y recibir
 benefit:
 - content: Ayuda con tu trabajo voluntario - recolectar, preparar, distribuir alimentos
@@ -125,7 +124,7 @@ center:
   divided: 
   title: 
 - content: Ayudamos con la gestión de inventario
-  small_content: 'Minga '
+  small_content: 
   image: "/assets/images/storage2.jpg"
 - divided: true
   content: Te ayudamos a llegar a la gente que más lo necesita
@@ -149,10 +148,20 @@ values:
   - content: Nos impulsa un fuerte sentido de la justicia social, y nuestro deseo
       es mitigar el impacto del hambre causado por el Covid-19 y la desigualdad social
       existente.
+    small_content: 
+    icon: 
+    include: 
+    image: 
+    alt: 
+    divided: 
+    title: 
   - content: 
     small_content: 'La estructura de la pobreza está cambiando rápidamente, y el cambio
       climático nos insta a buscar más allá de las fronteras de lo que creíamos que
       era fa ctible hasta que el Covid llegó. '
+  button:
+    title: 
+    url: 
 - title: Open Source
   items:
   - content: Todo nuestro software está desarrollado públicamente y bajo una licencia
