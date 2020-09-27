@@ -40,10 +40,10 @@ problems:
     food shortly before its expiry date.
 solutions_title: How Minga helps
 solutions:
-- content: We built a free-to-use <strong>mobile app</strong> and cloud platform,
-    that rewards people for their climate- and community-friendly action.<br>Users
-    can discover food offerings, help to prepare food, or do other voluntary work,
-    whereas individuals and businesses can donate food and goods.
+- content: We built a free-to-use <strong>mobile app</strong> and cloud platform that
+    rewards people for their climate- and community-friendly action.<br>Users can
+    discover food offerings, help to prepare food, or do other voluntary work, whereas
+    individuals and businesses can donate food and goods.
   small_content: 
   icon: 
   include: 
