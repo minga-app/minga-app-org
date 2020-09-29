@@ -17,6 +17,10 @@ defaults:
     type: home
   values:
     layout: home
+    charts:
+      bar_title: ~38% of Chilean families
+      pie_title: of food goes to waste
+      pie_unit: 1/3rd
     hero_title: 
     hero_subtitle: 
     hero_items: []

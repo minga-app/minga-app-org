@@ -141,13 +141,6 @@ values:
   items:
   - content: We are driven by a strong sense of social justice, and our wish is to
       mitigate the impact of hunger caused by Covid-19 and existing social inequality.
-    small_content: 
-    icon: 
-    include: 
-    image: 
-    alt: 
-    divided: 
-    title: 
   - content: 'We believe that our participatory model can be the perfect addition
       to the amazing, quickly growing existing network of charities. '
     small_content: 'The structure of poverty is changing rapidly, and climate change
