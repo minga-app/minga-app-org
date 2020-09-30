@@ -11,7 +11,7 @@ comparison_title: What we want to solve
 problems_title: Foodwaste globally
 problems:
 - content: FAO estimates that 1/3rd of food goes to waste, emitting 6 % of global
-    GHG. At the same time, Covid-19 has increased hunger.
+    GHG. At the same time, Covid-19 has increased hunger and malnutrition.
   small_content: 
   icon: 
   include: 
@@ -29,11 +29,10 @@ problems:
   title: Situation in Chile
 - content: Only during the first months and only in Chile, Covid-19 has already left
     an estimated 2.5 million people unemployed.
-- content: That means a  critical situation for roughly <strong>2.5 million families</strong>.
+- content: That means a  critical situation for  <strong>2.5 million families</strong>.
 - include: charts/bar.html
   content: Even Chile's so-called middle-class, which was doing well "on paper" but
-    is highly indebted, is in danger of losing everything they've ever had to the
-    creditors.
+    is highly indebted, is in danger of drifting into precarious conditions.
 - content: The latest amendments to the Chilean anti-foodwaste legislation, approved
     by the Senate at the beginning of August and now waiting to pass in Congress,
     is still in danger of being rejected, and supermarkets keep destroying tons of
@@ -75,7 +74,7 @@ benefit:
   title: 
 - content: Get compensated with impact points
   small_content: 'Points can create advantage: instead of working for the Chilean
-    average wage of 3 EUR/hour to then take the $$ to the supermarket and come home
+    average wage of 2 EUR/hour to then take the $$ to the supermarket and come home
     with 2 kilos of bread, in our model you would get whatever''s there on that day,
     or and if you save up your points, even that much-needed winter jacket or a phone
     card.'
@@ -130,7 +129,7 @@ center:
     in line at a charity or food bank: it grants you access to food/goods in exchange
     for doing what you know how to do best, actively becoming part of a creative change
     towards a more equal society. '
-- content: We help you manage your coordinators and staff
+- content: We help you manage your coordinators and helpers
   small_content: 'Thanks to the different levels of admin security, Minga allows you
     to either post simple shifts for cooking and cleaning or assign complex planning,
     supervision, and coordination tasks to the people you trust. '
@@ -141,6 +140,13 @@ values:
   items:
   - content: We are driven by a strong sense of social justice, and our wish is to
       mitigate the impact of hunger caused by Covid-19 and existing social inequality.
+    small_content: 
+    icon: 
+    include: 
+    image: 
+    alt: 
+    divided: 
+    title: 
   - content: 'We believe that our participatory model can be the perfect addition
       to the amazing, quickly growing existing network of charities. '
     small_content: 'The structure of poverty is changing rapidly, and climate change
