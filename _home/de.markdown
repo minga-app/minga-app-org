@@ -2,16 +2,17 @@
 title: Deutsch
 permalink: "/de/index.html"
 hero_title: food & climate
-hero_subtitle: A participatory model to
+hero_subtitle: Ein partizipatives Modell zur
 hero_items:
-- fight hunger
-- reduce food waste
-- lower climate footprint
-comparison_title: What we want to solve
-problems_title: Foodwaste globally
+- Bekämpfung von Hunger
+- Reduzierung von Lebensmittelabfällen
+- Verringerung des Klima-Fußabdrucks
+comparison_title: Was wir lösen wollen
+problems_title: Lebensmittelabfälle weltweit
 problems:
-- content: FAO estimates that 1/3rd of food goes to waste, emitting 6% of global GHG.
-    At the same time, Covid-19 has increased hunger.
+- content: Die FAO schätzt, dass 1/3 der Nahrungsmittel im Müll landen, was 6 % der
+    globalen Treibhausgasemissionen ausmacht. Gleichzeitig hat Covid-19 den Hunger
+    und Mangelernährung verstärkt.
   small_content: 
   icon: 
   include: 
@@ -20,30 +21,30 @@ problems:
   divided: 
   title: 
 - include: charts/pie.html
-  content: If global foodwaste was a country, it would be the world’s third-biggest
-    polluter. If organic waste is not adequately composted, it generates highly polluting
-    methane gas in the landfill.
+  content: Wenn die globale Nahrungsmittelverschwendung ein Land wäre, wäre es der
+    drittgrößte Umweltverschmutzer der Welt. Wenn organische Abfälle nicht ausreichend
+    kompostiert werden, erzeugen sie in der Deponie hoch belastendes Methangas.
 - image: "/assets/images/waste.jpeg"
-  alt: A woman disposing food
+  alt: So werden Lebensmittel entsorgt
 - divided: true
-  title: Situation in Chile
-- content: Only during the first months and only in Chile, Covid-19 has already left
-    an estimated 2.5 million people unemployed.
-- content: That means a  critical situation for roughly <strong>2.5 million families</strong>.
+  title: Lage in Chile
+- content: Nur in den ersten Monaten und allein in Chile hat Covid-19 bereits schätzungsweise
+    2,5 Millionen Menschen arbeitslos gemacht.
+- content: |-
+    Das bedeutet eine kritische Situation für rund
+    <strong>2.5 Millionen Familien</strong>.
 - include: charts/bar.html
-  content: Even Chile's so-called middle-class, which was doing well "on paper" but
-    is highly indebted, is in danger of losing everything they've ever had to the
-    creditors.
-- content: The latest amendments to the Chilean anti-foodwaste legislation, approved
-    by the Senate at the beginning of August and now waiting to pass in Congress,
-    is still in danger of being rejected, and supermarkets keep destroying tons of
-    food shortly before its expiry date.
-solutions_title: How Minga helps
+  content: Selbst die so genannte chilenische Mittelschicht, der es "auf dem Papier"
+    gut ging, die aber hoch verschuldet ist, läuft Gefahr, alles, was sie je hatte,
+    an die Gläubiger zu verlieren.
+- content: Die jüngsten Änderungen des chilenischen Anti-Lebensmittelabfallgesetzes,
+    die Anfang August vom Senat verabschiedet wurden und nun auf ihre Verabschiedung
+    im Kongress warten, laufen immer noch Gefahr, abgelehnt zu werden, und die Supermärkte
+    vernichten immer wieder Tonnen von Lebensmitteln kurz vor ihrem Verfallsdatum.
+solutions_title: Wie Minga hilft
 solutions:
-- content: We built a free-to-use <strong>mobile app</strong> and cloud platform,
-    that rewards people for their climate- and community-friendly action.<br>Users
-    can discover food offerings, help to prepare food, or do other voluntary work,
-    whereas individuals and businesses can donate food and goods.
+- content: Wir haben eine gratis nutzbare mobile App und Cloud-Plattform entwickelt,
+    die Menschen für ihr klima- und gemeinschaftsfreundliches Handeln belohnt.
   small_content: 
   icon: 
   include: 
@@ -51,96 +52,101 @@ solutions:
   alt: 
   divided: 
   title: 
-- content: All participants earn impact points for their donations and voluntary work.
-    These points can be either claimed by the person or donated to others who might
-    not have the chance to contribute.
-- content: Minga reflects the ancient tradition of exchange in a non-monetary system
-    but adapted to today’s reality.
-- content: Minga starts in Chile, but can be easily deployed to other countries all
-    around the world.
-features_title: Features
-benefit_title: Help and Benefit
+- content: Die NutzerInnen  können Lebensmittelangebote entdecken, bei der Zubereitung
+    von Speisen helfen oder andere ehrenamtliche Tätigkeiten ausüben, während Einzelpersonen
+    und Unternehmen Lebensmittel und Waren spenden können.
+- content: |-
+    Alle TeilnehmerInnen erhalten für ihre Spenden und ehrenamtliche Arbeit Impactpunkte. Diese Punkte können entweder von der Person selbst beansprucht oder an andere gespendet werden, die vielleicht nicht die Möglichkeit haben, einen Beitrag zu leisten.
+    Minga spiegelt die alte Tradition des Austauschs in einem nicht-monetären System wider, ist aber an die heutige Realität angepasst.
+- content: Minga beginnt in Chile, kann aber problemlos in anderen Ländern auf der
+    ganzen Welt eingesetzt werden.
+features_title: Merkmale
+benefit_title: Helfer und Nutzer
 benefit:
-- content: Help with your voluntary work – collect, prepare, distribute food or goods,
-    or help in centers
-  small_content: 'Offer your expertise, skills and talents. Just do what you love:
-    no matter if you’re a superb cook, swift bike messenger, patient teacher and homework
-    supervisor, experienced bicycle repairer, efficient coordinator, or if friends
-    say you’re on the phone all day anyway: Minga needs you.'
+- content: Durch ehrenamtliche Arbeit helfen - Sammeln, Zubereiten, Verteilen von
+    Lebensmitteln oder Waren oder Aushilfe in den Zentren
+  small_content: 'Biete Fachwissen, Fähigkeiten und Talente an. Mache einfach das,
+    was du lieben: egal, ob du ein hervorragender Koch, ein schneller Fahrradkurier,
+    ein geduldiger Lehrer und Hausaufgabenbetreuer, ein erfahrener Fahrradreparateur,
+    ein guter Arzt, Psychologe oder ein effizienter Koordinator bist, oder ob Freunde
+    sagen, dass du sowieso den ganzen Tag am Telefonbist: Minga braucht dich.'
   icon: 
   include: 
   image: 
   alt: 
   divided: 
   title: 
-- content: Get compensated with impact points
-  small_content: 'Points can create advantage: instead of working for the Chilean
-    average wage of 3 EUR/hour to then take the $$ to the supermarket and come home
-    with 2 kilos of bread, in our model you would get whatever''s there on that day,
-    or and if you save up your points, even that much-needed winter jacket or a phone
-    card.'
+- content: Mit Impact-Punkten kompensiert werden
+  small_content: 'Punkte können Vorteile schaffen: Anstatt für den chilenischen Mindestlohn
+    von ca. 2 EUR/Stunde zu arbeiten, um dann die $$ mit in den Supermarkt zu nehmen
+    und mit 2 Kilo Brot nach Hause zu kommen, können Helfer in unserem Modell bekommen,
+    was auch immer an diesem Tag da ist, oder und wenn du deine Punkte aufsparst,
+    sogar die dringend benötigte Winterjacke oder eine Telefonkarte.'
   icon: impact
 - icon: offers
-  content: Benefit from food offers and goods in the nearest center
-  small_content: "...which you can exchange for your impact points..."
-donate_title: Donate
+  content: Profitiere von Lebensmittelangeboten und Waren im nächstgelegenen Zentrum
+  small_content: "...die du gegen deine Impact-Punkte eintauschen kannst..."
+donate_title: Spenden
 donate:
-- content: Donate food and goods without any hidden cost, and decide if to let us
-    take care of pick up and collection.
-  small_content: You will earn impact points for your contributions.
+- content: Spende Lebensmittel und Waren ohne versteckte Kosten und entscheide, ob
+    wir uns um die Abholung und das Einsammeln kümmern sollen.
+  small_content: Für deine Beiträge erhältst du Impact-Punkte.
   icon: 
   include: 
   image: 
   alt: 
   divided: 
   title: 
-- content: Have an impact on the climate and the people around you.
-  small_content: 'Few people are aware of the damage that our current food system
-    causes to the environment: overproduction of food means wasting throwing water,
-    energy, and human effort into the bin.'
+- content: Habe Einfluss auf das Klima und die Menschen um dich herum.
+  small_content: 'Nur wenige Menschen sind sich des Schadens bewusst, den unser gegenwärtiges
+    Ernährungssystem der Umwelt zufügt: Überproduktion von Nahrungsmitteln bedeutet,
+    Wasser, Energie und menschliche Anstrengung in den Müll zu werfen.'
 - icon: chart
   divided: true
-  content: Keep an overview of all your donations
-  small_content: From individuals to large-scale wholesalers, our scalable solution
-    helps you track your donations and deliveries.
-- content: Export your donation statistics for easy use in accounting
-  small_content: We automatically gather all the data you need for accounting and
-    certifications of donations for tax purposes.
-center_title: For Centers
+  content: Behalte den Überblick über alle Spenden
+  small_content: Von Einzelpersonen bis hin zu Großhändlern hilft unsere skalierbare
+    Lösung bei der Verfolgung von Spenden und Auslieferungen.
+- content: Exportieren von Spendenstatistiken zur einfachen Verwendung in der Buchhaltung
+  small_content: Wir sammeln automatisch alle Daten, die für die Buchhaltung und Spendenbescheinigungen
+    für Steuerzwecke benötigt werden.
+center_title: Für Zentren
 center:
-- content: We help you become part of the Circular Economy
-  small_content: Each time you convert overripe tomatoes into pasta sauce, or fruit
-    into jam, or treat people to those very expensive vegetables which they could
-    not afford otherwise, you help mitigate climate change, improve nutrition and
-    create meaningful experiences.
+- content: Wir helfen dabei, Teil der Kreislaufwirtschaft zu werden
+  small_content: Jedes Mal, wenn überreife Tomaten in Nudelsauce oder Obst in Marmelade
+    verwandelt werden oder Menschen mit dem in Chile sehr teurem Gemüse verwöhnt werden,
+    das sie sich sonst nicht leisten könnten, tragen wir dazu bei, den Klimawandel
+    einzudämmen, die Ernährung zu verbessern und bedeutsame Erlebnisse zu schaffen.
   icon: 
   include: 
   image: 
   alt: 
   divided: 
   title: 
-- content: We help you manage your inventory
+- content: Wir helfen  bei der Verwaltung des Inventars
   small_content: 'Minga '
   image: "/assets/images/storage2.jpg"
 - divided: true
-  content: We help you be discoverable for the people who need it most
-  small_content: 'The pandemic has unveiled existing social inequality and pushes
-    millions worldwide into unemployment and poverty...there''s undeserved shame associated
-    when all of a sudden you can''t feed your kids. Minga is the opposite of standing
-    in line at a charity or food bank: it grants you access to food/goods in exchange
-    for doing what you know how to do best, actively becoming part of a creative change
-    towards a more equal society. '
-- content: We help you manage your coordinators and staff
-  small_content: 'Thanks to the different levels of admin security, Minga allows you
-    to either post simple shifts for cooking and cleaning or assign complex planning,
-    supervision, and coordination tasks to the people you trust. '
-gallery_title: Our app
-values_title: Our values
+  content: Wir helfen dabei, für die Menschen, die es am meisten brauchen, auffindbar
+    zu sein
+  small_content: 'Die Pandemie hat die bestehende soziale Ungleichheit aufgedeckt
+    und Millionen weltweit in Arbeitslosigkeit und Armut getrieben... es ist mit unverdienter
+    Schande verbunden, wenn man plötzlich seine Kinder nicht mehr ernähren kann. Minga
+    ist das Gegenteil von Schlangestehen bei einer Wohltätigkeitsorganisation oder
+    einer Lebensmittelbank: Sie gewährt Zugang zu Nahrungsmitteln/Gütern im Austausch
+    dafür, dass wir das tun, was wir am besten können, indem wir aktiv Teil eines
+    kreativen Wandels hin zu einer gerechteren Gesellschaft werden.'
+- content: Wir helfen bei der Verwaltung von Koordinatoren und Helfern
+  small_content: Dank der verschiedenen Sicherheitsebenen können mit Minga entweder
+    einfache Schichten zum Kochen und Putzen eingeteilt oder auch komplexe Planungs-,
+    Überwachungs- und Koordinationsaufgaben an Vertrauenspersonen übertragen werden.
+gallery_title: Unsere App
+values_title: Unsere Werte
 values:
 - title: Non profit
   items:
-  - content: We are driven by a strong sense of social justice, and our wish is to
-      mitigate the impact of hunger caused by Covid-19 and existing social inequality.
+  - content: Uns treibt ein ausgeprägter Sinn für soziale Gerechtigkeit an, und unser
+      Wunsch ist es, die Auswirkungen des durch Covid-19 verursachten Hungers und
+      der bestehenden sozialen Ungleichheit zu mildern.
     small_content: 
     icon: 
     include: 
@@ -148,34 +154,39 @@ values:
     alt: 
     divided: 
     title: 
-  - content: 'We believe that our participatory model can be the perfect addition
-      to the amazing, quickly growing existing network of charities. '
-    small_content: 'The structure of poverty is changing rapidly, and climate change
-      urges us to seek beyond the borders of what we thought was feasible until Covid
-      hit. '
+  - content: 'Wir glauben, dass unser partizipatorisches Modell die perfekte Ergänzung
+      zu dem tollen, schnell wachsenden bestehenden Netzwerk von Wohltätigkeitsorganisationen
+      sein kann. '
+    small_content: Die Struktur von Armut verändert sich rasch, und der Klimawandel
+      drängt uns, über die Grenzen dessen hinaus zu suchen, was wir bis zu Covid für
+      machbar hielten.
+  button:
+    title: 
+    url: 
 - title: Open Source
   items:
-  - content: All of our software is developed publicly and under an open source license.
-    small_content: Our development process is completely transparent and our software
-      license is the GNU Affero General Public License v3.
-  - content: We are building a version of Minga that can deployed more easily is and
-      is also cloud vendor independent.<br><a href="https://github.com/minga-app/roadmap">See
-      our development roadmap</a>.
+  - content: Unsere gesamte Software wird öffentlich und unter einer Open-Source-Lizenz
+      entwickelt.
+    small_content: Unser Entwicklungsprozess ist vollkommen transparent und unsere
+      Software-Lizenz ist die GNU Affero General Public License v3.
+  - content: |-
+      Wir bauen eine Version von Minga, die einfacher eingesetzt werden kann und außerdem Cloud-Anbieter-unabhängig ist.
+      <br><a href="https://github.com/minga-app/roadmap">Siehe unsere Entwicklungs-Roadmap</a>.
   button:
-    title: Find us on Github
+    title: Finde uns auf Github
     url: https://github.com/minga-app
-- title: Privacy
+- title: Datenschutz
   items:
-  - content: We collect only data that is necessary to run the service.
-    small_content: You can unsubscribe any time, and your data will be deleted and
-      never shared with Third Parties.
-  - content: Participate anonymously
-    small_content: In case you were a donor who wishes to remain incognito, you can
-      simply tick a checkbox for the creation of a confidential reception of the goods,
-      services or funds you'd like to donate.
-contact_title: Contact
-contact_content: We are always open for feedback, cooperations or just questions.
-  Don't hesitate to contact us.
+  - content: Wir sammeln nur Daten, die für den Betrieb des Dienstes notwendig sind.
+    small_content: Man kann sich jederzeit abmelden, und alle Daten werden gelöscht
+      und niemals an Dritte weitergegeben.
+  - content: Anonym teilnehmen
+    small_content: Falls SpenderInnen inkognito bleiben möchten, können sie einfach
+      ein Kästchen ankreuzen, um einen vertraulichen Empfang der Waren, Dienstleistungen
+      oder Gelder, die sie spenden möchten, einzurichten.
+contact_title: Kontakt
+contact_content: Wir sind immer offen für Rückmeldungen, Kooperationen oder einfach
+  nur Fragen. Zögert nicht, uns zu kontaktieren.
 layout: home
 ---
 
