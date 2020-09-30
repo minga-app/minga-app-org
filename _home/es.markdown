@@ -157,7 +157,8 @@ values:
     alt: 
     divided: 
     title: 
-  - content: 
+  - content: 'Creemos que nuestro modelo participativo puede ser la adición perfecta
+      a la asombrosa y creciente red existente de organizaciones benéficas. '
     small_content: 'La estructura de la pobreza está cambiando rápidamente, y el cambio
       climático nos insta a buscar más allá de las fronteras de lo que creíamos que
       era factible hasta que Covid llegó. '
