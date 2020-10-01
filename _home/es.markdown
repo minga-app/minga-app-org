@@ -85,8 +85,8 @@ benefit:
     al supermercado y volver a casa con unos 2 kilos de pan, en nuestro modelo obtendrías
     lo que sea que haya ese día, "a la suerte de la olla", o, si ahorras tus puntos,
     incluso esa chaqueta de invierno, o una tarjeta telefónica.'
-  icon: impacto
-- icon: ofertas
+  icon: impact
+- icon: offers
   content: Aprovecha las ofertas de comida y bienes en el centro más cercano a ti
   small_content: "...que puedes cambiar por tus puntos de impacto..."
 donate_title: Donar

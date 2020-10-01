@@ -9,7 +9,7 @@
                 {% for item in card.items %}
                 {% include components/text-caption.html %}
                 {% endfor %}
-                {% if card.button %}
+                {% if card.button.title %}
                 <center>
                     <a class="btn" href="{{ card.button.url }}">
                         {{ card.button.title }}
