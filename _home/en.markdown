@@ -152,9 +152,6 @@ values:
     small_content: 'The structure of poverty is changing rapidly, and climate change
       urges us to seek beyond the borders of what we thought was feasible until Covid
       hit. '
-  button:
-    title: 
-    url: 
 - title: Open Source
   items:
   - content: All of our software is developed publicly and under an open source license.
@@ -164,7 +161,7 @@ values:
       is also cloud vendor independent.<br><a href="https://github.com/minga-app/roadmap">See
       our development roadmap</a>.
   button:
-    title: Find us on Github
+    title: Github
     url: https://github.com/minga-app
 - title: Privacy
   items:

@@ -103,6 +103,8 @@ theme: amp_base_theme
 amp_components:
 - name: amp-position-observer
 - name: amp-animation
+- name: amp-bind
+- name: amp-selector
 google_fonts:
 - Montserrat:wght@500
 exclude:

@@ -160,9 +160,6 @@ values:
     small_content: Die Struktur von Armut verändert sich rasch, und der Klimawandel
       drängt uns, über die Grenzen dessen hinaus zu suchen, was wir bis zu Covid für
       machbar hielten.
-  button:
-    title: 
-    url: 
 - title: Open Source
   items:
   - content: Unsere gesamte Software wird öffentlich und unter einer Open-Source-Lizenz
@@ -173,7 +170,7 @@ values:
       Wir bauen eine Version von Minga, die einfacher eingesetzt werden kann und außerdem Cloud-Anbieter-unabhängig ist.
       <br><a href="https://github.com/minga-app/roadmap">Siehe unsere Entwicklungs-Roadmap</a>.
   button:
-    title: Finde uns auf Github
+    title: Github
     url: https://github.com/minga-app
 - title: Datenschutz
   items:
