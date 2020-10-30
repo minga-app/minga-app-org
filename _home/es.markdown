@@ -11,7 +11,7 @@ hero_items:
 - combatir el hambre
 - reducir el desperdicio de comida
 - ayudar a frenar el cambio climático
-comparison_title: Lo que pretendemos solver
+comparison_title: Lo que pretendemos resolver
 problems_title: Desperdicio de comida a nivel global
 problems:
 - content: La FAO estima que a nivel mundial, 1/3 de los alimentos se desperdician,
