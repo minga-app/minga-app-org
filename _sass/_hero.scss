@@ -15,7 +15,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 3rem;
+    padding: 1.5rem 0 1.5rem;
+
+    @include breakpoint('tablet') {
+        padding: 0 0 3rem;
+    }
 
     .brand {
         display: flex;
@@ -68,16 +72,22 @@
     }
 
     .teaser {
-        @include breakpoint('desktop'){
+        @include breakpoint('desktop') {
 
             padding-top: 2rem;
         }
-        @include breakpoint('until-desktop'){
+
+        @include breakpoint('until-desktop') {
             padding: 1.5rem;
         }
 
         h2 {
-            font-size: 2.5rem;
+            font-size: 2.2rem;
+
+            @include breakpoint('tablet') {
+                font-size: 2.5rem;
+            }
+
             margin: 0 0 .5rem;
         }
 
@@ -85,7 +95,11 @@
             margin: 0 0 0 .5rem;
             padding: 0;
             list-style: none;
-            font-size: 2.2rem;
+
+            font-size: 1.9rem;
+            @include breakpoint('tablet') {
+                font-size: 2.2rem;
+            }
         }
 
         ul li::before {

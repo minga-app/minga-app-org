@@ -8,11 +8,13 @@ body {
 
 h3 {
     font-size: 2.5rem;
-    @include breakpoint('desktop'){
+
+    @include breakpoint('desktop') {
         margin: 1.5rem 0;
     }
-    @include breakpoint('until-desktop'){
-        margin:0;
+
+    @include breakpoint('until-desktop') {
+        margin: 0;
         padding: 1.5rem;
     }
 }
@@ -31,11 +33,12 @@ hr {
     height: .2rem;
     background: $primary;
     border: none;
-    @include breakpoint('until-desktop'){
+
+    @include breakpoint('until-desktop') {
         margin: 1.5rem 0;
     }
 
-        @include breakpoint('desktop'){
+    @include breakpoint('desktop') {
 
         margin: 2rem 0;
     }
@@ -48,6 +51,7 @@ hr {
     width: 100%;
     background-color: $primary100;
     padding-bottom: 3rem;
+
     @include breakpoint('desktop') {
         display: flex;
         flex-direction: column;
@@ -69,6 +73,7 @@ hr {
         width: 100%;
         background-color: $white;
         padding-bottom: 3rem;
+
         @include breakpoint('desktop') {
             display: flex;
             flex-direction: column;
@@ -78,8 +83,10 @@ hr {
         }
     }
 
-    #features .details .details-card {
-        min-height: 915px;
+    @include breakpoint('desktop') {
+        #features .details .details-card {
+            min-height: 915px;
+        }
     }
 
     #values .details .details-card {
