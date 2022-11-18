@@ -1,6 +1,6 @@
 ---
 title: English
-permalink: "/index.html"
+permalink: "/en/index.html"
 hero_title: food & climate
 hero_subtitle: A participatory model to
 hero_items:
