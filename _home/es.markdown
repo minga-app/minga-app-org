@@ -1,7 +1,6 @@
 ---
 title: Español
 permalink: "/es/index.html"
-published: false
 charts:
   bar_title: aprox. 38% de las familias chilenas
   pie_title: de nuestra comida se bota
