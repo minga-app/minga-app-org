@@ -1,0 +1,15 @@
+<div id="products">
+    <h3>Productos</h3>
+    <div class="details">
+        {% for product in site.products %}
+        <div class="details-card ">
+            <amp-img layout="fixed" height="300" width="300" src="/assets/images/discover_offers_small.png"></amp-img>
+            <h4>{{product.title}}</h4>
+            <p> {{product.body}} </p>
+        </div>
+        {% endfor %}
+    </div>
+    <!--<div>
+        <a class="btn">Más información</a>
+    </div>-->
+</div>

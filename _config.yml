@@ -6,12 +6,22 @@ collections:
     title: Posts
     output: true
   home:
-    title: Startseite
+    title: Homepage
     output: true
   uploads:
     title: Uploads
     output: true
+  products:
+    title: Products
+    output: false
 defaults:
+- scope:
+    type: product
+    path: ''
+  values:
+    title: 
+    points:
+    image:
 - scope:
     path: ''
     type: home
