@@ -1,5 +1,6 @@
 ---
 title: Apple
 points: 3
-image: /uploads/fgs.png
+image: "/uploads/fgs.png"
 ---
+
